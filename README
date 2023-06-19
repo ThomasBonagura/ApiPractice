@@ -1,0 +1,26 @@
+Hello! 
+Make sure you have the following:
+Node.js
+Express.js (npm install express)
+
+To Run:
+node ./index.js
+
+Use localhost:4000/
+
+Get Requests:
+localhost:4000/findByID/:id
+localhost:4000/findByName/:name
+
+Post Request (use postman.com for these)
+localhost:4000/makeNewPet/:id/:name/:photoUrls/:status
+
+Put Request:
+/updatePet/:id/:name/:photoUrls/:status
+
+Delete Pet:
+/deletePet/:id
+
+
+Utilize Postman for POST, PUT, and DELETE requests.
+Fill in the id, name, photoUrls, and status with information! Need all information or my program will deny you (not enough information).
